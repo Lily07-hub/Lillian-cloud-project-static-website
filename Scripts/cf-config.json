@@ -1,0 +1,24 @@
+{
+  "CallerReference": "1761053687",
+  "Comment": "Project 3 Static Site",
+  "Enabled": true,
+  "Origins": {
+    "Quantity": 1,
+    "Items": [{
+      "Id": "S3Origin",
+      "DomainName": "cloud-project-3-1761053677.s3.amazonaws.com",
+      "S3OriginConfig": { "OriginAccessIdentity": "" }
+    }]
+  },
+  "DefaultCacheBehavior": {
+    "TargetOriginId": "S3Origin",
+    "ViewerProtocolPolicy": "redirect-to-https",
+    "AllowedMethods": ["GET", "HEAD"],
+    "CachedMethods": ["GET", "HEAD"],
+    "ForwardedValues": { "QueryString": false, "Cookies": { "Forward": "none" } },
+    "MinTTL": 0,
+    "DefaultTTL": 300,
+    "MaxTTL": 300
+  },
+  "DefaultRootObject": "index.html"
+}
