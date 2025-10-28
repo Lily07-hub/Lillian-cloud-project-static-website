@@ -20,5 +20,5 @@ jobs:
 
       - name: Run deployment script
         run: |
-          chmod +x scripts/deploy-aws.sh
+          chmod +x Scripts/deploy-aws.sh
           ./scripts/deploy-aws.sh
