@@ -2,32 +2,32 @@
 
 A colorful static website deployed to **AWS S3** using Bash and GitHub Actions.
 
-## Ìºê Live Site
+## Live Site
 > **URL will appear here after GitHub Actions runs**  
 > (Check **Actions ‚Üí Workflow logs** for the live link)
 
-## Ì≥Å Pages
+##  Pages
 - `index.html` ‚Äì Home  
 - `about.html` ‚Äì Project info  
 - `contact.html` ‚Äì Contact details  
 
-## ‚öôÔ∏è Automation
+## Automation
 - **Bash script**: `scripts/deploy-aws.sh`  
 - **CI/CD**: GitHub Actions (`.github/workflows/deploy.yml`)  
 - **Deployed on every push to `main`**
 
-## Ì≥∏ Screenshots
+##  Screenshots
 See the `Screenshots/` folder for:
 - Live website
 - GitHub Actions success
 - S3 policy fix
 
-## ‚úÖ Deliverables
-- Unique static site ‚úÖ  
-- AWS S3 deployment ‚úÖ  
-- GitHub Actions automation ‚úÖ  
-- Public URL (port 80) ‚úÖ  
-- Full documentation ‚úÖ  
+##  Deliverables
+- Unique static site   
+- AWS S3 deployment   
+- GitHub Actions automation  
+- Public URL (port 80)  
+- Full documentation  
 
 ---
-**Repo**: https://github.com/Lily07-hub/cloud-project-static-website
+**Repo**: https://github.com/Lily07-hub/Lillian-cloud-project-static-website
