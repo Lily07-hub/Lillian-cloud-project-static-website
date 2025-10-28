@@ -3,7 +3,7 @@
 # Configuration
 BUCKET_NAME="my-cloud-project-$(date +%s)"
 REGION="us-east-1"
-WEBSITE_DIR="./Website"
+WEBSITE_DIR="./website"
 
 # Validate website directory
 if [ ! -d "$WEBSITE_DIR" ]; then
