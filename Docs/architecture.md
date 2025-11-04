@@ -14,7 +14,7 @@ This project deploys a colorful static website to **AWS S3** using infrastructur
 - Configured for **static website hosting**
 - Made publicly readable via a bucket policy allowing `s3:GetObject` for all users
 
-### 3. **Bash Deployment Script (`scripts/deploy-aws.sh`)**
+### 3. **Bash Deployment Script (`scripts/deploy.sh`)**
 - Creates a globally unique S3 bucket (using timestamp)
 - Enables static website hosting
 - Applies public-read policy
