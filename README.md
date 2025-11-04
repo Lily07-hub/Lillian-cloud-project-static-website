@@ -1,33 +1,25 @@
-# Cloud Final Project – Static Website on AWS
+# Group 3 – Static Website on AWS  
+Live Site:(http://my-cloud-project-1761568558.s3-website-us-east-1.amazonaws.com/index.html)
+Demo Video: [Link to your video]  
+Documentation: See /docs folder  
 
-A colorful static website deployed to **AWS S3** using Bash and GitHub Actions.
+## Features  
+- Fully automated deployment via AWS CLI + GitHub Actions  
+- Beautiful, colorful, responsive design with gradient styling  
+- Multi-page site (Home, About, Contact)  
+- Hosted on AWS S3 with public static website hosting  
+- Pure static site  
 
-## Live Site
-> **URL will appear here after GitHub Actions runs**  
-> (Check **Actions → Workflow logs** for the live link)
+## Project Structure  
+website/        – Static HTML/CSS files  
+scripts/        – AWS deployment automation (deploy.sh)  
+.github/workflows/ – GitHub Actions CI/CD (deploy.yml)  
+docs/           – Architecture, deployment steps, screenshots  
 
-##  Pages
-- `index.html` – Home  
-- `about.html` – Project info  
-- `contact.html` – Contact details  
+## How to Deploy  
+1. Run locally: `./scripts/deploy.sh`  
+2. Or push to GitHub, deployment runs automatically via GitHub Actions  
+3. Visit your live site at the URL printed in the terminal or Actions log  
 
-## Automation
-- **Bash script**: `scripts/deploy-aws.sh`  
-- **CI/CD**: GitHub Actions (`.github/workflows/deploy.yml`)  
-- **Deployed on every push to `main`**
-
-##  Screenshots
-See the `Screenshots/` folder for:
-- Live website
-- GitHub Actions success
-- S3 policy fix
-
-##  Deliverables
-- Unique static site   
-- AWS S3 deployment   
-- GitHub Actions automation  
-- Public URL (port 80)  
-- Full documentation  
-
----
-**Repo**: https://github.com/Lily07-hub/Lillian-cloud-project-static-website
+## Built for  
+Cloud Computing Final Project – October 2025
