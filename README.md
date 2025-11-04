@@ -1,6 +1,8 @@
 # Group 3 – Static Website on AWS  
 Live Site:(http://my-cloud-project-1761568558.s3-website-us-east-1.amazonaws.com/index.html)
-Demo Video: [Link to your video]  
+
+Demo Video: [Link to your video] 
+
 Documentation: See /docs folder  
 
 ## Features  
