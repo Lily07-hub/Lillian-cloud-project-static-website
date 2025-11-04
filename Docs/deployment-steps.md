@@ -12,7 +12,7 @@ Added custom content with personal name and project info
 Styled with `style.css` using colorful gradients and responsive layout
 
 Step 3: Write Deployment Script
-Created `scripts/deploy-aws.sh`
+Created `scripts/deploy.sh`
 Configured to:
 - Generate unique S3 bucket name: `my-cloud-site-$(date +%s)`
 - Create bucket in `us-east-1`
@@ -25,7 +25,7 @@ Created `.github/workflows/deploy.yml`
 Configured to:
 - Trigger on every `push` to `main`
 - Use AWS credentials from GitHub Secrets
-- Run `chmod +x scripts/deploy.sh && ./scripts/deploy.sh`
+- Run ./scripts/deploy.sh`
 Added secrets: `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`
 Ensured Personal Access Token had `repo` and `workflow` scopes
 
