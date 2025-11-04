@@ -23,8 +23,8 @@ This project deploys a colorful static website to **AWS S3** using infrastructur
 ### 4. **GitHub Actions CI/CD Pipeline**
 - Triggered on every `git push` to `main`
 - Uses AWS credentials stored in **GitHub Secrets**
-- Runs the same `deploy-aws.sh` script in a Ubuntu runner
-- Deploys to a **new unique bucket** on every run (ensures no naming conflicts)
+- Runs the same `deploy.sh` script in a Ubuntu runner
+- Deploys to a **new unique bucket** on every run 
 
 ## Security
 - AWS credentials are **never stored in code**
