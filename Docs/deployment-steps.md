@@ -55,6 +55,6 @@ Merge conflict on empty repo: Used `git push --force` to reset cleanly
 
  Success Criteria Met
 Website accessible at `http://<bucket>.s3-website-us-east-1.amazonaws.com` (port 80 only)
- No manual AWS Console steps — all via CLI/script
+ No manual AWS Console steps, all was via CLI/script
  All code, scripts, and docs in GitHub with version control
  Screenshots, documentation, and automation included
